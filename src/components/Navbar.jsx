@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-      <nav class='navbar navbar-expand-lg navbar-light bg-light px-5 mb-5'>
+      <nav class='navbar navbar-expand-lg navbar-light bg-light px-5'>
         <div class='container-fluid'>
           <img src={logo} alt='' height={40} width={40} />
           <button
