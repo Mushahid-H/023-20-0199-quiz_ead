@@ -22,7 +22,7 @@ const Contactus = () => {
           />
         </div>
       </div>
-      <div className='col-md-6 px-5'>
+      <div className='col-md-6 px-md-5'>
         <div class='mb-3'>
           <input
             type='text'
