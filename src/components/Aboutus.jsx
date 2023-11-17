@@ -2,7 +2,7 @@ import React from 'react'
 import Staff from '../assests/staff.jpeg'
 const Aboutus = () => {
   return (
-    <div id='about'>
+    <div id='about' className='bg-secondary text-black'>
       <div className='row px-4 text-center p-5'>
         <div className='col-md-6 d-flex align-items-center justify-content-center'>
           <h3>About US</h3>

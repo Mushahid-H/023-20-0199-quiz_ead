@@ -3,6 +3,7 @@ import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import Menu from './components/Menu.jsx'
 import Contactus from './components/Contactus.jsx'
+import Aboutus from './components/Aboutus.jsx'
 import Footer from './components/Footer.jsx'
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path={'/'} element={<Home />}></Route>
           <Route path={'/menu'} element={<Menu />}></Route>
+          <Route path={'/about'} element={<Aboutus />}></Route>
           <Route path={'/contact'} element={<Contactus />}></Route>
         </Routes>
         <Footer />

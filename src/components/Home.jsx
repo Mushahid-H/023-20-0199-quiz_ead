@@ -8,7 +8,7 @@ import Aboutus from './Aboutus.jsx'
 const Home = () => {
   return (
     <>
-      <div className='px-3 bg-dark text-light py-4' id='home'>
+      <div className='px-3 bg-dark text-light py-4 mt-5' id='home'>
         <div className='row'>
           <div className='col-md-8'>
             <p>
@@ -41,6 +41,7 @@ const Home = () => {
       </div>
       <Menu />
       <Aboutus />
+      <Contactus />
     </>
   )
 }
